@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    body{
+      display: flex;
+      
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      
+      
+      
+      
+    }
+    .grid-container {
+      
+      
+      
+      
+      
+      
+    
+  
+    }
+
+    .background {
+      display: grid;
+      grid-template-rows: 414px 130px 155px 22px;
+      grid-template-columns: 331px 104px 124px 60px ;
+      background-color:#000000 ;
+      gap: 10px;
+      
+      
+      
+    }
+
+    .red {
+
+      background-color: #E72F24;
+    }
+
+    .blue{
+      background-color: #004592;
+      grid-area: 2 / 4 
+    }
+
+    .yellow {
+      background-color: #F9D01E;
+      grid-area: 4 / 2;
+    }
+
+    .black {
+      background-color: #232629;
+      grid-area: 4 / 3;
+    }
+
+    .first-white {
+      background-color: #F0F1EC;
+      grid-area: 1 / 2 / 2 / 5;
+    }
+
+    .second-white {
+      background-color: #F0F1EC;
+      grid-area: 2 / 1 / 4 / 2;
+
+    }
+
+    .third-white {
+      background-color: #F0F1EC;
+      grid-area: 2 / 2 / 4 / 4;
+
+    }
+
+    .fourth-white {
+      background-color: #F0F1EC;
+      grid-area: 3 / 4 / 5 / 5;
+    }
+
+    .last-white {
+      background-color: #F0F1EC;
+    }
+
+    
+
+    
+
+    
+    
+      
+    
+
+    
+  </style>
+</head>
+
+<body>
+<div class = "flex-container">  <!-- Write your HTML here -->
+  <div class = "grid-container" >
+    <div class= "backgroun1" >
+      <div class= "background" >
+       <div class = "red" ></div>
+   
+        <div class = "first-white" ></div>
+        <div class = "second-white" ></div>
+        <div class = "third-white" ></div>
+   
+        <div class = "blue" ></div>
+        <div class = "fourth-white" ></div>
+  
+        <div class = "yellow" ></div>
+        <div class = "black" ></div>
+      
+        <div class = "last-white" ></div>
+        <div class = "stroke" ></div>
+      </div>
+    </div>
+  </div> 
+<div>
+</body>
+
+</html>
