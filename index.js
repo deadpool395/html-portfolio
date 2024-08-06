@@ -9,6 +9,6 @@ function contactMe(){
 }
 
 function linkedIn(){
-     window.open("https://www.linkedin.com/in/daniel-das-c-y-a42722178");
+     window.open('https://www.linkedin.com/in/daniel-das-c-y-a42722178');
 }
 
