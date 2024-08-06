@@ -8,3 +8,7 @@ function contactMe(){
     window.location.href = mailtoLink;
 }
 
+function linkedIn(){
+     window.open("https://www.linkedin.com/in/daniel-das-c-y-a42722178");
+}
+
