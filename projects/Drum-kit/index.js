@@ -18,7 +18,7 @@ function check(buttonclicked){
         case "j": var snare = new Audio("./Sounds/snare.mp3"); 
                         snare.play();
                     break;
-        case "k": var crash = new Audio("./Sounds/crash.mp3"); 
+        case "k": var crash = new Audio("./sounds/crash.mp3"); 
                     crash.play();
                     break;
 
